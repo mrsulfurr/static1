@@ -1,10 +1,43 @@
+h1, h3 {
+    font-family: 'Open Sans', sans-serif;
+}
 p {
-    font-family: monospace, Arial, Helvetica, sans-serif;
-    color: gray;
-    font-size: 30px;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 16px;
+    text-shadow: 2px 2px 1px gray;
 }
 
 img {
-    border: solid;
-    border-color: aqua;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 300px;
+}
+
+footer {
+    font-family: monospace;
+    background-color: #A5A5A5;
+}
+
+/*.opacity {
+    opacity: 0;
+    transition: 0.5s;
+    background-color: mediumaquamarine;
+} */
+
+img:hover /*.opacity*/ {
+    border-radius: 10%;
+    /* opacity: 0.7; */
+}
+
+.body-background {
+    background-color: #e6e6e6;
+}
+
+.img-resize {
+    width: 50%;
+    height: 50%;
+    padding: 50px;
 }
